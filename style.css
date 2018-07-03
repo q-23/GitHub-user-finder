@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Tajawal');
+body {
+	background-color:#efefef;
+}
+label {
+	font-family: 'Tajawal', sans-serif;
+	font-size: 32px;
+	padding: 12px;
+}
+input {
+	background-image: url("https://expresstrainroute.com/images/search-icon.png");
+	padding: 7px 6px;
+	background-repeat:no-repeat;
+	padding-left: 30px;
+}
+.formdiv {
+	width: 600px;
+	margin: 0 auto;
+}
+.userlist {
+	padding: 30px;
+	width: 700px;
+	background-color:#fcfcfc;
+	transform: translate(-130px, 55px);
+	border-radius:12px;
+}
+a {
+	font-size: 40px;
+	text-decoration: none;
+	color: black;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+a:hover{
+	color: #545454;
+}
+img {
+	transform: translate(-10px, 35px);
+	border-radius: 10px;
+}

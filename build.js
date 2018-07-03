@@ -50,7 +50,7 @@ var App = function (_React$Component) {
 
       return React.createElement(
         "div",
-        null,
+        { className: "formdiv" },
         React.createElement(
           "form",
           { onSubmit: function onSubmit(event) {
@@ -121,7 +121,7 @@ var User = function (_React$Component3) {
     value: function render() {
       return React.createElement(
         "div",
-        null,
+        { className: "userlist" },
         React.createElement("img", { src: this.props.user.avatar_url, style: { maxWidth: '100px' } }),
         React.createElement(
           "a",
