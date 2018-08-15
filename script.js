@@ -22,7 +22,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="formdiv">
+      <div className="formcontainer">
         <form onSubmit={event => this.onSubmit(event)}>
           <label htmlFor="searchText">Search by user name</label>
           <input
